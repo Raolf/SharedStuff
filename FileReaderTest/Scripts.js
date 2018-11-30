@@ -1,6 +1,7 @@
 
 var text = "clear";
 var textArray = [];
+readText();
 
 function readText() {
     $.get("Data", function (data) {
